@@ -1,6 +1,6 @@
-# React + Vite
+# Load-Based Task Distribution System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TA smart task management system that automatically assigns tasks to employees based on their current workload to ensure balanced distribution and improved productivity.
 
 Currently, two official plugins are available:
 
