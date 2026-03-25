@@ -2,15 +2,32 @@
 
 TA smart task management system that automatically assigns tasks to employees based on their current workload to ensure balanced distribution and improved productivity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✅ Automatic task assignment based on employee workload
+✅ Real-time task tracking
+✅ Admin dashboard to manage users and tasks
+✅ Role-based access (Admin / Employee)
+✅ Task status updates (Pending, In Progress, Completed)
+✅ Load calculation to find least busy employee
+✅ Deadline management
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend: React.js
+Backend: Spring Boot (Java)
+Database: MySQL
+API: REST APIs
 
-## Expanding the ESLint configuration
+## How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Admin creates a task
+2. System calculates workload of all employees
+3. Task is assigned to the employee with the least load
+4. Employees update task status
+5. System continuously balances workload
+
+## Live Demo
+
+Frontend: 
+Backend: 
