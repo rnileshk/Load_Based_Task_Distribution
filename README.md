@@ -4,20 +4,20 @@ TA smart task management system that automatically assigns tasks to employees ba
 
 ## Features
 
-✅ Automatic task assignment based on employee workload
-✅ Real-time task tracking
-✅ Admin dashboard to manage users and tasks
-✅ Role-based access (Admin / Employee)
-✅ Task status updates (Pending, In Progress, Completed)
-✅ Load calculation to find least busy employee
-✅ Deadline management
+✅ Automatic task assignment based on employee workload     
+✅ Real-time task tracking     
+✅ Admin dashboard to manage users and tasks        
+✅ Role-based access (Admin / Employee)                  
+✅ Task status updates (Pending, In Progress, Completed)          
+✅ Load calculation to find least busy employee         
+✅ Deadline management         
 
 ## Tech Stack
 
-Frontend: React.js
-Backend: Spring Boot (Java)
-Database: MySQL
-API: REST APIs
+Frontend: React.js             
+Backend: Spring Boot (Java)        
+Database: MySQL          
+API: REST APIs            
 
 ## How It Works
 
@@ -29,5 +29,5 @@ API: REST APIs
 
 ## Live Demo
 
-Frontend: 
+Frontend:       
 Backend: 
